@@ -1,0 +1,17 @@
+.custom-slider .track {
+  -fx-background-color: #CCCCCC; /* 슬라이드 바 트랙 색상 */
+}
+
+.custom-slider .thumb {
+  -fx-background-color: #FF0000; /* 슬라이드 바 썸 색상 */
+  -fx-background-insets: 0;
+  -fx-background-radius: 0;
+}
+
+.custom-slider .thumb:hover {
+  -fx-background-color: #00FF00; /* 슬라이드 바 썸 호버 시 색상 */
+}
+
+.custom-slider .thumb:pressed {
+  -fx-background-color: #0000FF; /* 슬라이드 바 썸 눌렀을 때 색상 */
+}
